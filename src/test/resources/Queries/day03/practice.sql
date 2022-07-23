@@ -1,0 +1,1 @@
+create view EmployeeInfo as select LAST_NAME || ' '||EMPLOYEES.FIRST_NAME as FullName from EMPLOYEES
